@@ -4,4 +4,4 @@
 
 참고) https://www.youtube.com/watch?v=Br95hhB8xgE&list=PL4UVBBIc6giLZFjhh-UXovCCVlP57YnzA
 
-* reset.css , nomalize.css , html5shic.js , ie0checker.js 는 강의와 다르게 찾아서 넣었다.
+* reset.css , nomalize.css , html5shic.js , ie-checker.js 는 강의와 다르게 찾아서 넣었다.
