@@ -1,1 +1,31 @@
 @charset "UTF-8";
+
+/* layout */
+
+/* container */
+/* container 를 가운데 정렬 시키고 media query 이용해 1280 보다 커지면 container 의 width 값을 1280px 로 고정*/
+.container {width:100%; margin:0 auto; background:rgba(0,0,0,0.2)}
+
+
+/* media query 320/480/600/768/960/1024/1280 */
+@media (min-width:320px){
+
+}
+@media (min-width:480px){
+
+}
+@media (min-width:600px){
+
+}
+@media (min-width:768px){
+
+}
+@media (min-width:960px){
+
+}
+@media (min-width:1024px){
+
+}
+@media (min-width:1280px){
+    .container { width:1280px; }
+}
