@@ -16,9 +16,7 @@
     <!-- css -->
     <link rel="stylesheet" href="assets/css/reset.css"> <!--cross browsing 위해 설정돼있는 모든 속성을 초기화 시킨다-->
     <link rel="stylesheet" href="assets/css/style.css">
-    <!--
     <link rel="stylesheet" href="assets/css/nomalize.css">   브라우저의 기본 스타일을 통일 시켜주는 방법
-    -->
     <!-- web font 설정 -->
     <link href='http://fonts.googleapis.com/earlyaccess/nanumgothic.css' rel='stylesheet' type='text/css'> <!--나눔고딕-->
 
@@ -27,18 +25,13 @@
     <!--[if IE 7]<link rel="stylesheet" type="text/css" href="ie6.css">[endif]-->
     <!--[if IE 8]<link rel="stylesheet" type="text/css" href="ie6.css">[endif]-->
     <!--[if IE 9]<link rel="stylesheet" type="text/css" href="ie6.css">[endif]-->
-    <!--[if IE 6]
+    <!--[if lt IE 9]> 
+        <script src="js/html5shiv.min.js"></script>
         <script type="text/javascript">
-            alert("Please Upgrade Your BROWSER!");
+            alert("현재 당신이 보는 브라우저는 지원하지 않습니다. 최신 브라우저로 업데이트해주세요!");
         </script>
-    [endif]-->
-
-    <!--html5 Support & ie Version Checker -->
-    <script src="assets/js/html5shiv.js"></script>  <!--html5 를 낮은 버전 browser 에서도 적용하기 위해-->
-    <script src="assets/js/ie-checker.js"></script>
+    <![endif]-->
     
-    <!-- jQuery -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>  
 </head>
 <body>
     <header>
@@ -76,5 +69,13 @@
     <footer>
         <h2>사이트 footer</h2>
     </footer>
+
+    <!-- JavaScript Libraries -->
+    <script src="assets/js/jquery.min_1.12.4.js"></script>
+    <script src="assets/js/modernizr-custom.js"></script>
+    <!--html5 Support & ie Version Checker -->
+    <script src="assets/js/html5shiv.js"></script>  <!--html5 를 낮은 버전 browser 에서도 적용하기 위해-->
+    <script src="assets/js/ie-checker.js"></script>
+
 </body>
 </html>
